@@ -1,0 +1,121 @@
+html {
+	font-size: 16px;
+}
+
+body {
+	background-color: #555; /* hexadecimal */
+	/*margin: 2rem;*/ /* basically 32px */
+	border: 7.5px solid #ccc;
+	color: white;
+
+	max-width: 800px;
+	margin: 2rem auto;
+}
+
+
+h1 {
+	margin: 0;
+}
+
+body {
+	text-align: left;
+}
+
+p {
+	line-height: 2rem;
+	font-size: 1rem;
+}
+
+
+.wrapper {
+	margin: 25px;
+}
+
+.wrapper-border-bottom {
+	border-bottom: 1px solid #ccc;
+}
+
+.wrapper-border-top {
+	border-top: 1px solid #ccc;
+}
+
+.title {
+	color: white;
+	font-family: 'EB Garamond', serif;
+	font-weight: 700;
+	font-style: italic;
+	font-size: 2.5rem;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.title-standard {
+	font-style: normal;
+	font-size: 1.5rem;
+}
+
+.menu {
+	padding: 20px 0; /* topbottom leftright */
+}
+
+.menu-item {
+	font-weight: 700;
+	font-family: Helvetica;
+	color: #093;
+	font-size: 20px;
+
+	border-right: 1px solid #ccc;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    display: inline-block;
+    line-height: 1rem;
+}
+
+.menu-item-no-border,
+.menu-item:last-child {
+	border-right: none;
+	padding-right: 0;
+}
+
+.menu-item-active {
+	color: white;
+	text-decoration: none;
+	pointer-events: none;
+}
+
+.content-img {
+	border: 2px solid white;
+    padding: 5px;
+}
+
+.content-img-right {
+	float: right;
+    
+}
+
+.experience-format {
+	font-family: sans-serif;
+}
+
+.resume-title {
+	font-family: sans-serif;
+}
+
+.resume-text {
+	color:lightgrey;
+}
+
+.upper-case-title {
+	text-transform: uppercase;
+}
+
+.resume-margin {
+	margin:0px;
+}
+
+li b {
+	font-size: 60%;
+}
